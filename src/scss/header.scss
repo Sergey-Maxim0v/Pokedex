@@ -1,0 +1,12 @@
+.header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    background: $third;
+    box-shadow: $shadow-header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw 0 10.9vw;
+}

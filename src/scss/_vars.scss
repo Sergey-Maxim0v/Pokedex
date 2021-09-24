@@ -1,0 +1,44 @@
+// Fonts
+$font__karla: "karla";
+$font__open-sans: "open sans";
+$font__roboto: "roboto";
+$font__source-sans-pro: "source sans pro";
+
+//Font-size
+$font-size__title-1: 72px;
+$font-size__title-2: 64px;
+$font-size__title-3: 36px;
+$font-size__title-4: 24px;
+$font-size__title-5: 18px;
+$font-size__title-6: 12px;
+$font-size__paragraph: 16px;
+
+// Colors
+$white: #fff;
+$white-f6: #F6F7F9;
+$third: #F5DB13;
+$primary: #F2B807;
+$second: #F28F16;
+$danger: #D93E30;
+$dark: #212121;
+$black: #000000;
+$green: #73D677;
+$blue: #07D6F2;
+
+// Gradients
+$white-gradient: linear-gradient(180deg, #FFFFFF 30.32%, #F5F5F5 100%);
+$blue-gradient: linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%);
+$red-gradient: linear-gradient(270deg, #B33327 0.15%, #D93E30 100%);
+$yellow-gradient: linear-gradient(270deg, #F2CB07 0.15%, #F2B807 100%);
+$yellow-gradient-home: linear-gradient(180deg, #F5DB13 0%, #F2B807 100%);
+$pink-gradient: linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%);
+
+
+// Shadows
+$shadow-button-big: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
+$shadow-button-small: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+$shadow-search: 4px 4px 16px rgba(1, 28, 64, 0.2);
+$shadow-header: 0px 4px 16px rgba(1, 28, 64, 0.2);
+$shadow-filters: 2px 2px 2px rgba(33, 33, 33, 0.1);
+
+$shadow-card-filter: drop-shadow(4px 4px 4px rgba(33, 33, 33, 0.1));
