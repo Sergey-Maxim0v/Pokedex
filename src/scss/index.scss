@@ -3,8 +3,13 @@
 @import './mixins';
 @import './cleancing';
 
-// Blocks
+// Pages
 @import 'home';
+@import 'search';
+@import 'legendary';
+@import '404';
+
+// Blocks
 @import 'header';
 @import 'footer';
 

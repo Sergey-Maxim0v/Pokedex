@@ -113,6 +113,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 
+.header__links-home {
+  border-bottom: 3px solid #212121;
+}
+
 .header {
   width: 100%;
   height: 80px;
@@ -131,6 +135,40 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 10vw 0 10.9vw;
+}
+.header__logo {
+  display: block;
+  width: 157px;
+  height: 63px;
+  background-image: url(../../assets/images/logo-pokemon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.header__links {
+  height: auto;
+  width: auto;
+}
+.header__links-link {
+  height: auto;
+  padding: 0 0 16px 0;
+  display: inline-block;
+  margin: 0 2.29vw;
+  font-family: "karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #212121;
+}
+.header__links-home {
+  border-bottom: 3px solid #212121;
+}
+.header__links-legendary {
+  border-bottom: 3px solid #212121;
+}
+.header__links-search {
+  border-bottom: 3px solid #212121;
 }
 
 body {

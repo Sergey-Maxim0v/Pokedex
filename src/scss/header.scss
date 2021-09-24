@@ -8,5 +8,39 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10vw 0 10.9vw;
+    padding: $padding-page-desktop;
+    &__logo{
+        display: block;
+        width: 157px;
+        height: 63px;
+        background-image: url(../../assets/images/logo-pokemon.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    &__links{
+        height: auto;
+        width: auto;
+        &-link{
+            height: auto;
+            padding: 0 0 16px 0;
+            display: inline-block;
+            margin: 0 2.29vw;
+            font-family: $font__karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: $font-size__title-4;
+            line-height: 29px;
+            color: $dark;
+        }
+        &-home{
+            border-bottom: 3px solid $dark;
+        }
+        &-legendary{
+            border-bottom: 3px solid $dark;
+        }
+        &-search{
+            border-bottom: 3px solid $dark;
+        }
+    }
 }
