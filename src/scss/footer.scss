@@ -1,0 +1,34 @@
+.footer{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: $padding-page-desktop;
+    font-family: $font__karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $font-size__title-5;
+    line-height: 21px;
+    &-dark{
+        color: $dark;
+    }
+    &-light{
+        color: $white-f2;
+    }
+    &__text{
+        display: block;
+        position: relative;
+    }
+    &__link{
+        display: block;
+        margin: 0 2.97vw 0 0;
+        &-dark{
+            color: $dark;
+        }
+        &-light{
+            color: $white-f2;
+        }
+    }
+}

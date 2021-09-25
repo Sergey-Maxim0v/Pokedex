@@ -1,0 +1,38 @@
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    color: $dark;
+    &-big{
+        width: 231px;
+        height: 66px;
+        padding: 0 0 5px 0;
+        font-family: $font__karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $font-size__button-big;
+        line-height: 27px;
+        box-shadow: $shadow-button-big;
+    }
+    &-small{
+        width: 60px;
+        height: 16px;
+        padding: 0 0 2px 0;
+        font-family: $font__roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $font-size__title-6;
+        line-height: 14px;
+        box-shadow: $shadow-button-small;
+    }
+    &-green{
+        background: $green;
+    }
+    &-yellow{
+        background: $yellow;
+    }
+    &-blue{
+        background: $blue;
+    }
+}

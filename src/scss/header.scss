@@ -21,9 +21,10 @@
     &__links{
         height: auto;
         width: auto;
+        margin: 0 -2.29vw 0 0;
         &-link{
             height: auto;
-            padding: 0 0 16px 0;
+            padding: 0 8px 16px 8px;
             display: inline-block;
             margin: 0 2.29vw;
             font-family: $font__karla;
@@ -33,13 +34,7 @@
             line-height: 29px;
             color: $dark;
         }
-        &-home{
-            border-bottom: 3px solid $dark;
-        }
-        &-legendary{
-            border-bottom: 3px solid $dark;
-        }
-        &-search{
+        &-here{
             border-bottom: 3px solid $dark;
         }
     }

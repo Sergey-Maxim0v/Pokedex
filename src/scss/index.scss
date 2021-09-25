@@ -3,19 +3,24 @@
 @import './mixins';
 @import './cleancing';
 
+// Blocks
+@import 'header';
+@import 'footer';
+@import 'button';
+
 // Pages
 @import 'home';
 @import 'search';
 @import 'legendary';
 @import '404';
 
-// Blocks
-@import 'header';
-@import 'footer';
-
 // Common style
 body{
     position: relative;
     width: 100%;
     height: auto;
+    font-family: $font__karla;
+    font-style: normal;
+    font-weight: normal;
+    color: $black;
 }
