@@ -7,6 +7,7 @@ $font__source-sans-pro: "source sans pro";
 //Font-size
 $font-size__title-1: 72px;
 $font-size__title-2: 64px;
+$font-size__notfound-text: 48px;
 $font-size__title-3: 36px;
 $font-size__home-text: 32px;
 $font-size__title-4: 24px;
@@ -44,6 +45,7 @@ $shadow-button-small: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
 $shadow-search: 4px 4px 16px rgba(1, 28, 64, 0.2);
 $shadow-header: 0px 4px 16px rgba(1, 28, 64, 0.2);
 $shadow-filters: 2px 2px 2px rgba(33, 33, 33, 0.1);
+$shadow-404: drop-shadow(4px 4px 24px rgba(1, 17, 38, 0.2));
 
 $shadow-card-filter: drop-shadow(4px 4px 4px rgba(33, 33, 33, 0.1));
 
