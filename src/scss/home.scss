@@ -24,7 +24,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: space-around;
+        justify-content: center;
     }
     &__title{
         font-family: $font__karla;
@@ -42,6 +42,7 @@
         }
     }
     &__text{
+        margin: 4.44vh 0;
         font-family: $font__karla;
         font-style: normal;
         font-weight: normal;
@@ -52,6 +53,7 @@
     &__banner{
         width: 60%;
         height: 100%;
+        max-height: 48vw;
         background-image: url(../../assets/images/banner-home.png);
         background-position: right;
         background-repeat: no-repeat;

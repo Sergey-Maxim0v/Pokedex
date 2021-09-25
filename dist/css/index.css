@@ -279,8 +279,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .home-filling__title {
   font-family: "karla";
@@ -298,6 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 .home-filling__text {
+  margin: 4.44vh 0;
   font-family: "karla";
   font-style: normal;
   font-weight: normal;
@@ -308,6 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 .home-filling__banner {
   width: 60%;
   height: 100%;
+  max-height: 48vw;
   background-image: url(../../assets/images/banner-home.png);
   background-position: right;
   background-repeat: no-repeat;
