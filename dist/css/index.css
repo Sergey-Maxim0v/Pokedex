@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
+  z-index: 100;
   width: 100%;
   height: 80px;
   position: fixed;
@@ -215,6 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 .button-small {
   width: 60px;
   height: 16px;
+  border-radius: 8px;
   padding: 0 0 2px 0;
   font-family: "roboto";
   font-style: normal;
@@ -223,6 +225,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 14px;
   -webkit-box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
           box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .button-green {
   background: #73D677;
@@ -375,6 +386,227 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 
+.card-shadow {
+  position: relative;
+  width: 352px;
+  height: 136px;
+  background: pgba(0, 0, 0, 0);
+  margin: 22px 17px;
+}
+
+.card {
+  position: relative;
+  width: 352px;
+  height: 136px;
+  background: #F6F7F9;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card__content {
+  position: relative;
+  width: 120px;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 0 12px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.card__title {
+  font-family: "karla";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #212121;
+  text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+}
+.card__stats {
+  margin: 12px 0 0 0;
+  width: 93px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.card__stats-stat {
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.card__stats-number {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 3px solid #212121;
+  font-family: "karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #212121;
+}
+.card__stats-name {
+  font-family: "karla";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #4B4B4B;
+}
+.card__button-grass {
+  position: absolute;
+  bottom: 12px;
+  left: 25px;
+}
+.card__button-poison {
+  position: absolute;
+  bottom: 12px;
+  left: 98px;
+}
+.card__img {
+  width: 232px;
+  height: 100%;
+  border-radius: 0 8px 8px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.card__img-blue {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0.15%, #5BC7FA), to(#35BAFF));
+  background: linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%);
+}
+.card__img-red {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0.15%, #B33327), to(#D93E30));
+  background: linear-gradient(270deg, #B33327 0.15%, #D93E30 100%);
+}
+.card__img-yellow {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0.15%, #F2CB07), to(#F2B807));
+  background: linear-gradient(270deg, #F2CB07 0.15%, #F2B807 100%);
+}
+.card__img-green {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0.15%, #64D368), color-stop(70.88%, #64D368));
+  background: linear-gradient(270deg, #64D368 0.15%, #64D368 70.88%);
+}
+.card__img-pink {
+  background: -webkit-gradient(linear, right top, left top, color-stop(0.15%, #F89EAE), to(#F4B5C1));
+  background: linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%);
+}
+.card__img-pachirisu {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-pa.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__img-pyroar {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-pyroar.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__img-pikachu {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-pikachu.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__img-quilava {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-quilava.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__img-squirtle {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-squirtle.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__img-charizard {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-charizard.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__img-mudkip {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-mudkip.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__img-jigglypuff {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-jigglypuff.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card__img-tyranitar {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/pokemon-taranitar.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .home-page {
   width: 100%;
   height: 100vh;
@@ -502,9 +734,9 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-align: start;

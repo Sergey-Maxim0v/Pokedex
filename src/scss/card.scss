@@ -1,0 +1,179 @@
+.card-shadow{
+    position: relative;
+    width: 352px;
+    height: 136px;
+    background: pgba(0, 0, 0, 0);
+    margin: 22px 17px;
+}
+.card{
+    position: relative;
+    width: 352px;
+    height: 136px;
+    background: $white-f6;
+    border-radius: 8px;
+    display: flex;
+    &__content{
+        position: relative;
+        width: 120px;
+        height: 100%;
+        border-radius: 8px 0 0 8px;
+        padding: 5px 0 12px 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    &__title{
+        font-family: $font__karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $font-size__title-5;
+        line-height: 21px;
+        color: $dark;
+        text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+    }
+    &__stats{
+        margin: 12px 0 0 0;
+        width: 93px;
+        height: 56px;
+        display: flex;
+        &-stat{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-number{
+            width: 36px;
+            height: 36px;
+            border-radius: 18px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid $dark;
+            font-family: $font__karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: $font-size__15;
+            line-height: 18px;
+            color: $dark;
+        }
+        &-name{
+            font-family: $font__karla;
+            font-style: normal;
+            font-weight: normal;
+            font-size: $font-size__title-6;
+            line-height: 14px;
+            text-align: center;
+            color: $color-4b;
+        }
+    }
+    &__button-grass{
+        position: absolute;
+        bottom: 12px;
+        left: 25px;
+    }
+    &__button-poison{
+        position: absolute;
+        bottom: 12px;
+        left: 98px;
+    }
+    &__img{
+        width: 232px;
+        height: 100%;
+        border-radius: 0 8px 8px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-blue{
+            background: $blue-gradient;
+        }
+        &-red{
+            background: $red-gradient;
+        }
+        &-yellow{
+            background: $yellow-gradient;
+        }
+        &-green{
+            background: $green-gradient;
+        }
+        &-pink{
+            background: $pink-gradient;
+        }
+        &-pachirisu{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-pa.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-pyroar{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-pyroar.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-pikachu{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-pikachu.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-quilava{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-quilava.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-squirtle{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-squirtle.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-charizard{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-charizard.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-mudkip{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-mudkip.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-jigglypuff{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-jigglypuff.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &-tyranitar{
+            width: 100%;
+            height: 100%;
+            background-image: url(../../assets/images/pokemon-taranitar.png);
+            background-size: auto 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
