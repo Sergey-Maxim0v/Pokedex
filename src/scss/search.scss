@@ -20,36 +20,13 @@
             font-weight: bold;
         }
     }
-    &__form{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: relative;
-        width: 100%;
-        height: auto;
-        padding: 35px;
-        &-input{
-            margin: 0 0 35px 0;
-            width: 100%;
-            height: 53px;
-            padding: 0 30px;
-            border-radius: 40px;
-            background: $white-f2;
-            box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.2);
-            font-family: $font__source-sans-pro;
-            font-style: normal;
-            font-weight: normal;
-            font-size: $font-size__search-input;
-            line-height: 20px;
-            color: rgba(33, 33, 33, 0.8);
-        }
-        &-properties{
-            display: flex;
-            align-items: center;
-        }
-        
-        &-send{
-            display: none;
-        }
-    }
+}
+.search-cards{
+    margin: 35px 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }

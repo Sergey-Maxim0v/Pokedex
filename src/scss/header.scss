@@ -33,6 +33,10 @@
             font-size: $font-size__title-4;
             line-height: 29px;
             color: $dark;
+            transition: border-bottom 0.1s;
+            &:hover{
+                border-bottom: 3px solid $dark;
+            }
         }
         &-here{
             border-bottom: 3px solid $dark;

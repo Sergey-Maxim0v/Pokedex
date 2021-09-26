@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="../dist/css/index.css">
   <title>Search Page | Pokédex</title>
 </head>
+
 <body>
   <div class="search-page">
     <header class="header">
@@ -24,13 +26,59 @@
         <span class="search-content__title-bold">Pokemons</span>
         <span class="search-content__title-normal">for you to choose your favorite</span>
       </h3>
-      <form action="#" class="search-content__form">
-        <input type="text" placeholder="Encuentra tu pokémon..." class="search-content__form-input">
-        <div class="search-content__form-properties">
+      <form action="#" class="search__form">
+        <input type="text" placeholder="Encuentra tu pokémon..." class="search__form-input">
+        <button type="submit" class="search__form-send"></button>
+      </form>
+      <div class="search-filters">
+        <div class="search-filters__filter">
+          <div class="search-filters__button">
+            <p class="search-filters__button-name">Tipo</p>
+            <div class="search-filters__button-arrow"></div>
+          </div>
+          <div class="search-filters__list">
+            <div class="search-filters__list-parameter">
+              <input type="checkbox" class="search-filters__list-checkbox">
+              <p class="search-filters__list-parametername">Fire</p>
+            </div>
+            <div class="search-filters__list-parameter">
+              <input type="checkbox" class="search-filters__list-checkbox">
+              <p class="search-filters__list-parametername">Normal</p>
+            </div>
+            <div class="search-filters__list-parameter">
+              <input type="checkbox" class="search-filters__list-checkbox">
+              <p class="search-filters__list-parametername">Electric</p>
+            </div>
+            <div class="search-filters__list-parameter">
+              <input type="checkbox" class="search-filters__list-checkbox">
+              <p class="search-filters__list-parametername">Water</p>
+            </div>
+          </div>
+        </div>
+        <div class="search-filters__filter">
+          <div class="search-filters__button">
+            <p class="search-filters__button-name">Ataque</p>
+            <div class="search-filters__button-arrow"></div>
+          </div>
+          <div class="search-filters__list">
+
+          </div>
+        </div>
+        <div class="search-filters__filter">
+          <div class="search-filters__button">
+            <p class="search-filters__button-name">Experiencia</p>
+            <div class="search-filters__button-arrow"></div>
+          </div>
+          <div class="search-filters__list">
+
+          </div>
+        </div>
+      </div>
+      <div class="search-cards">
+        <div class="card">
           
         </div>
-        <button type="submit" class= "search-content__form-send"></button>
-      </form>
+      </div>
     </div>
     <footer class="footer footer-dark">
       <p class="footer__text">Make with ❤️ for the PokéSpartans team Platzi Master</p>
@@ -38,4 +86,5 @@
     </footer>
   </div>
 </body>
+
 </html>
