@@ -386,16 +386,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 
-.card-shadow {
-  position: relative;
-  width: 352px;
-  height: 136px;
-  background: pgba(0, 0, 0, 0);
-  margin: 22px 17px;
-}
-
 .card {
   position: relative;
+  margin: 22px 17px;
   width: 352px;
   height: 136px;
   background: #F6F7F9;
