@@ -218,6 +218,10 @@ h6 {
 .footer__link {
   display: block;
   margin: 0 2.97vw 0 0;
+  color: #212121;
+}
+.footer__link-light {
+  color: #f2f2f2;
 }
 
 .button {
@@ -851,7 +855,11 @@ h6 {
           justify-content: space-between;
   color: #000000;
 }
-
+@media (max-width: 1024px) {
+  .home-page {
+    height: auto;
+  }
+}
 .home-filling {
   padding: 0 10.9vw;
   padding-top: 80px;
@@ -867,6 +875,17 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .home-filling {
+    padding: 0 20px;
+    padding-top: 93px;
+    padding-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 .home-filling__content {
   width: 40%;
@@ -885,6 +904,19 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media (max-width: 1024px) {
+  .home-filling__content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 470px 0 0 0;
+  }
+}
 .home-filling__title {
   font-family: "karla";
   font-style: normal;
@@ -893,6 +925,11 @@ h6 {
   line-height: 84px;
   letter-spacing: 4px;
   color: #000000;
+}
+@media (max-width: 1024px) {
+  .home-filling__title {
+    text-align: center;
+  }
 }
 .home-filling__title-bold {
   font-weight: bold;
@@ -909,6 +946,12 @@ h6 {
   line-height: 37px;
   color: #000000;
 }
+@media (max-width: 1024px) {
+  .home-filling__text {
+    text-align: center;
+    font-size: 24px;
+  }
+}
 .home-filling__banner {
   width: 60%;
   height: 100%;
@@ -918,7 +961,21 @@ h6 {
   background-repeat: no-repeat;
   background-size: auto 107%;
 }
-
+@media (max-width: 1024px) {
+  .home-filling__banner {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    position: absolute;
+    top: 110px;
+    width: 100%;
+    height: 539px;
+    max-height: 48vw;
+    background-image: url(../../assets/images/banner-home-tablet.svg);
+    background-size: auto 100%;
+    background-position: center;
+  }
+}
 .search-content {
   padding: 0 10.9vw;
   padding-top: 80px;
