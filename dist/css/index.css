@@ -878,7 +878,7 @@ h6 {
 }
 @media (max-width: 1024px) {
   .home-filling {
-    padding: 0 20px;
+    padding: 0;
     padding-top: 93px;
     padding-right: 0px;
     -webkit-box-orient: vertical;
@@ -915,6 +915,7 @@ h6 {
         -ms-flex-align: center;
             align-items: center;
     margin: 470px 0 0 0;
+    padding: 0 20px;
   }
 }
 .home-filling__title {

@@ -28,7 +28,7 @@
   justify-content: space-between;
   
   @include media(tablet-lg) {
-    padding: $padding-page-tablet;
+    padding: 0;
     padding-top: 93px;
     padding-right: 0px;
     flex-direction: column;
@@ -52,6 +52,7 @@
       height: auto;
       align-items: center;
       margin: 470px 0 0 0;
+      padding: $padding-page-tablet;
     }
   
     @include media(phone-lg) {
