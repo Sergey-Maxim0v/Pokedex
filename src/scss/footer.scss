@@ -11,6 +11,16 @@
   font-weight: bold;
   font-size: $font-size__title-5;
   line-height: 21px;
+
+  @include media(tablet-lg) {
+    padding: $padding-page-tablet;
+    font-size: $font-size__16;
+  }
+
+  @include media(phone-lg) {
+
+  }
+
   &-dark {
     color: $dark;
   }
@@ -25,11 +35,5 @@
   &__link {
     display: block;
     margin: 0 2.97vw 0 0;
-    &-dark {
-      color: $dark;
-    }
-    &-light {
-      color: $white-f2;
-    }
   }
 }
