@@ -1,55 +1,55 @@
-.notfound{
-    width: 100%;
-    height: 100vh;
+.notfound {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $danger;
+  overflow: hidden;
+  &__banner {
     position: relative;
+    width: 80%;
+    height: 61vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: $danger;
-    overflow: hidden;
-    &__banner{
-        position: relative;
-        width: 80%;
-        height: 61vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        filter: $shadow-404;
+    filter: $shadow-404;
+  }
+  &__404 {
+    display: block;
+    font-family: $font__karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60vh;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  &__img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-image: url(../../assets/images/banner-404.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+  }
+  &__text {
+    padding: 0 0 5vh 0;
+    font-family: $font__karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $font-size__notfound-text;
+    line-height: 56px;
+    &-white {
+      color: $white-f2;
     }
-    &__404{
-        display: block;
-        font-family: $font__karla;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 60vh;
-        display: flex;
-        align-items: center;
-        letter-spacing: 4px;
-        color: rgba(0, 0, 0, 0.5);
+    &-black {
+      color: $black;
     }
-    &__img{
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 50vh;
-        background-image: url(../../assets/images/banner-404.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: auto 100%;
-    }
-    &__text{
-        padding: 0 0 5vh 0;
-        font-family: $font__karla;
-        font-style: normal;
-        font-weight: bold;
-        font-size: $font-size__notfound-text;
-        line-height: 56px;
-        &-white{
-            color: $white-f2;
-        }
-        &-black{
-            color: $black;
-        }
-    }
+  }
 }

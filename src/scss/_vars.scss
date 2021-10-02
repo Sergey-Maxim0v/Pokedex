@@ -11,7 +11,8 @@ $font-size__notfound-text: 48px;
 $font-size__title-3: 36px;
 $font-size__home-text: 32px;
 $font-size__title-4: 24px;
-$font-size__button-big:23px;
+$font-size__button-big: 23px;
+$font-size__19: 19px;
 $font-size__title-5: 18px;
 $font-size__16: 16px;
 $font-size__15: 15px;
@@ -20,30 +21,29 @@ $font-size__paragraph: 16px;
 
 // Colors
 $white: #fff;
-$white-f2: #F2F2F2;
-$white-f6: #F6F7F9;
-$white-fd: #FDFDFD;
-$third: #F5DB13;
-$primary: #F2B807;
-$second: #F28F16;
-$danger: #D93E30;
+$white-f2: #f2f2f2;
+$white-f6: #f6f7f9;
+$white-fd: #fdfdfd;
+$third: #f5db13;
+$primary: #f2b807;
+$second: #f28f16;
+$danger: #d93e30;
 $dark: #212121;
 $black: #000000;
-$green: #73D677;
-$yellow: #F2CB07;
-$blue: #07D6F2;
-$color-4b: #4B4B4B;
-$color-darc-1d:#1D1E1D;
+$green: #73d677;
+$yellow: #f2cb07;
+$blue: #07d6f2;
+$color-4b: #4b4b4b;
+$color-darc-1d: #1d1e1d;
 
 // Gradients
-$white-gradient: linear-gradient(180deg, #FFFFFF 30.32%, #F5F5F5 100%);
-$blue-gradient: linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%);
-$red-gradient: linear-gradient(270deg, #B33327 0.15%, #D93E30 100%);
-$green-gradient: linear-gradient(270deg, #64D368 0.15%, #64D368 70.88%);
-$yellow-gradient: linear-gradient(270deg, #F2CB07 0.15%, #F2B807 100%);
-$yellow-gradient-home: linear-gradient(180deg, #F5DB13 0%, #F2B807 100%);
-$pink-gradient: linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%);
-
+$white-gradient: linear-gradient(180deg, #ffffff 30.32%, #f5f5f5 100%);
+$blue-gradient: linear-gradient(270deg, #5bc7fa 0.15%, #35baff 100%);
+$red-gradient: linear-gradient(270deg, #b33327 0.15%, #d93e30 100%);
+$green-gradient: linear-gradient(270deg, #64d368 0.15%, #64d368 70.88%);
+$yellow-gradient: linear-gradient(270deg, #f2cb07 0.15%, #f2b807 100%);
+$yellow-gradient-home: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);
+$pink-gradient: linear-gradient(270deg, #f89eae 0.15%, #f4b5c1 100%);
 
 // Shadows
 $shadow-button-big: inset 0px -9px 0px rgba(0, 0, 0, 0.18);
@@ -57,4 +57,5 @@ $shadow-404: drop-shadow(4px 4px 24px rgba(1, 17, 38, 0.2));
 $shadow-card-filter: drop-shadow(4px 4px 4px rgba(33, 33, 33, 0.1));
 
 // Paddings
-$padding-page-desktop:  0 10.9vw;
+$padding-page-desktop: 0 10.9vw;
+$padding-page-tablet: 0 20px;

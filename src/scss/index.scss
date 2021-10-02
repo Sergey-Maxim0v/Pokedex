@@ -1,31 +1,31 @@
-@import './fonts';
-@import './vars';
-@import './mixins';
-@import './cleancing';
+@import "./fonts";
+@import "./vars";
+@import "./mixins";
+@import "./cleancing";
 
 // Blocks
-@import 'header';
-@import 'footer';
-@import 'button';
-@import 'search-form';
-@import 'search-filters';
-@import 'card';
-@import 'legendary-stats';
-@import './legendary-pokemonscroll.scss';
+@import "header";
+@import "footer";
+@import "button";
+@import "search-form";
+@import "search-filters";
+@import "card";
+@import "legendary-stats";
+@import "./legendary-pokemonscroll.scss";
 
 // Pages
-@import 'home';
-@import 'search';
-@import 'legendary';
-@import '404';
+@import "home";
+@import "search";
+@import "legendary";
+@import "404";
 
 // Common style
-body{
-    position: relative;
-    width: 100%;
-    height: auto;
-    font-family: $font__karla;
-    font-style: normal;
-    font-weight: normal;
-    color: $black;
+body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-family: $font__karla;
+  font-style: normal;
+  font-weight: normal;
+  color: $black;
 }

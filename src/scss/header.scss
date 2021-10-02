@@ -1,46 +1,78 @@
-.header{
-    z-index: 100;
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 0px;
-    background: $third;
-    box-shadow: $shadow-header;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: $padding-page-desktop;
-    &__logo{
-        display: block;
-        width: 157px;
-        height: 63px;
-        background-image: url(../../assets/images/logo-pokemon.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
+.header {
+  z-index: 100;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  background: $third;
+  box-shadow: $shadow-header;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $padding-page-desktop;
+
+  @include media(tablet-lg) {
+    height: 93px;
+    padding: $padding-page-tablet;
+  }
+
+  @include media(phone-lg) {
+
+  }
+
+  &__logo {
+    display: block;
+    width: 157px;
+    height: 63px;
+    background-image: url(../../assets/images/logo-pokemon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    @include media(tablet-lg){
+      width: 121px;
+      height: 45px;
     }
-    &__links{
-        height: auto;
-        width: auto;
-        margin: 0 -2.29vw 0 0;
-        &-link{
-            height: auto;
-            padding: 0 8px 16px 8px;
-            display: inline-block;
-            margin: 0 2.29vw;
-            font-family: $font__karla;
-            font-style: normal;
-            font-weight: normal;
-            font-size: $font-size__title-4;
-            line-height: 29px;
-            color: $dark;
-            transition: border-bottom 0.1s;
-            &:hover{
-                border-bottom: 3px solid $dark;
-            }
-        }
-        &-here{
-            border-bottom: 3px solid $dark;
-        }
+
+    @include media(phone-lg) {
+
     }
+
+  }
+  &__links {
+    height: auto;
+    width: auto;
+    margin: 0 -2.29vw 0 0;
+    &-link {
+      height: auto;
+      padding: 0 8px 16px 8px;
+      display: inline-block;
+      margin: 0 2.29vw;
+      font-family: $font__karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: $font-size__title-4;
+      line-height: 29px;
+      color: $dark;
+      transition: border-bottom 0.1s;
+
+      @include media(tablet-lg){
+        font-size: $font-size__19;
+        margin: 0 24px;
+      }
+  
+      @include media(phone-lg) {
+  
+      }
+  
+
+      &:hover {
+        border-bottom: 3px solid $dark;
+      }
+      
+    }
+    &-here {
+      border-bottom: 3px solid $dark;
+    }
+  }
 }
