@@ -14,8 +14,11 @@
   }
 
   @include media(phone-lg) {
-
+    margin: 12px 0;
+    width: 90vw;
+    height: 140px;
   }
+
   &__content {
     position: relative;
     width: 120px;

@@ -11,7 +11,7 @@
   }
 
   @include media(phone-lg) {
-
+    padding-top: 56px;
   }
 
   &__title {
@@ -23,6 +23,12 @@
     text-align: center;
     letter-spacing: 3px;
     color: $black;
+
+    @include media(phone-lg) {
+      margin: 30px 0 0 0;
+      font-size: $font-size__title-4;
+      line-height: 28px;
+    }
 
     &-normal {
       font-weight: normal;
@@ -48,7 +54,10 @@
   }
 
   @include media(phone-lg) {
-
+    margin: 30px 0 0 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
 }
 
@@ -60,6 +69,11 @@
   align-items: center;
   justify-content: space-between;
   background: rgba(0, 0, 0, 0);
+
+  @include media(phone-lg) {
+    margin: 30px 0;
+    align-self: center;
+  }
 
   & div {
     margin: 0 4px;

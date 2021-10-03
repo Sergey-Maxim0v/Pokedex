@@ -18,6 +18,19 @@
     @include media(tablet-lg) {
       margin: 0 32px;
     }
+
+    @include media(phone-lg) {
+      display: none;
+    }
+
+    &-phone {
+      display: none;
+
+      @include media(phone-lg) {
+        display: flex;
+        width: 77px;
+      }
+    }
   }
 
   &__button {
@@ -30,6 +43,11 @@
     background-color: $white-f2;
     box-shadow: $shadow-filters;
     border-radius: 4px;
+    cursor: pointer;
+
+    @include media(phone-lg) {
+      border-radius: 8px;
+    }
 
     &-name {
       font-family: $font__source-sans-pro;
