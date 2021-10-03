@@ -6,12 +6,14 @@
   align-items: center;
 
   @include media(tablet-lg) {
-
+    padding: $padding-page-tablet;
+    padding-top: 80px;
   }
 
   @include media(phone-lg) {
 
   }
+
   &__title {
     margin: 7.13vh 0 0 0;
     font-family: $font__karla;
@@ -21,14 +23,17 @@
     text-align: center;
     letter-spacing: 3px;
     color: $black;
+
     &-normal {
       font-weight: normal;
     }
+
     &-bold {
       font-weight: bold;
     }
   }
 }
+
 .search-cards {
   margin: 35px 0 0 0;
   width: 100%;
@@ -37,7 +42,16 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
+  
+  @include media(tablet-lg) {
+    justify-content: space-around;
+  }
+
+  @include media(phone-lg) {
+
+  }
 }
+
 .search__dotted-button {
   width: 56px;
   margin: 30px 100%;
@@ -46,6 +60,7 @@
   align-items: center;
   justify-content: space-between;
   background: rgba(0, 0, 0, 0);
+
   & div {
     margin: 0 4px;
     display: block;

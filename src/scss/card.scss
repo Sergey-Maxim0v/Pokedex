@@ -6,6 +6,16 @@
   background: $white-f6;
   border-radius: 8px;
   display: flex;
+  
+  @include media(tablet-lg) {
+    margin: 22px 5px;
+    width: 350px;
+    height: 146px;
+  }
+
+  @include media(phone-lg) {
+
+  }
   &__content {
     position: relative;
     width: 120px;

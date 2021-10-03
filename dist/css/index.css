@@ -406,6 +406,11 @@ h6 {
   width: 135px;
   height: auto;
 }
+@media (max-width: 1024px) {
+  .search-filters__filter {
+    margin: 0 32px;
+  }
+}
 .search-filters__button {
   position: relative;
   width: 100%;
@@ -484,6 +489,13 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+@media (max-width: 1024px) {
+  .card {
+    margin: 22px 5px;
+    width: 350px;
+    height: 146px;
+  }
 }
 .card__content {
   position: relative;
@@ -1070,6 +1082,12 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 1024px) {
+  .search-content {
+    padding: 0 20px;
+    padding-top: 80px;
+  }
+}
 .search-content__title {
   margin: 7.13vh 0 0 0;
   font-family: "karla";
@@ -1103,7 +1121,12 @@ h6 {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-
+@media (max-width: 1024px) {
+  .search-cards {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 .search__dotted-button {
   width: 56px;
   margin: 30px 100%;

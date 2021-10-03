@@ -6,6 +6,7 @@
   justify-content: flex-start;
   height: auto;
   width: 100%;
+
   &__filter {
     position: relative;
     margin: 0 25px;
@@ -13,7 +14,12 @@
     flex-direction: column;
     width: 135px;
     height: auto;
+
+    @include media(tablet-lg) {
+      margin: 0 32px;
+    }
   }
+
   &__button {
     position: relative;
     width: 100%;
@@ -24,6 +30,7 @@
     background-color: $white-f2;
     box-shadow: $shadow-filters;
     border-radius: 4px;
+
     &-name {
       font-family: $font__source-sans-pro;
       font-style: normal;
@@ -32,6 +39,7 @@
       line-height: 20px;
       color: $black;
     }
+
     &-arrow {
       position: absolute;
       right: 8px;
@@ -44,6 +52,7 @@
       background-size: 100% 100%;
     }
   }
+
   &__list {
     position: absolute;
     top: 30px;
@@ -54,13 +63,16 @@
     background: $white-f2;
     box-shadow: $shadow-filters-list;
     border-radius: 8px;
+
     &-parameter {
       display: flex;
       margin: 4px 0;
     }
+
     &-checkbox {
       margin: 0 8px 0 0;
     }
+
     &-parametername {
       font-family: $font__source-sans-pro;
       font-style: normal;
@@ -69,6 +81,7 @@
       line-height: 20px;
       color: $black;
     }
+
     display: none;
   }
 }
