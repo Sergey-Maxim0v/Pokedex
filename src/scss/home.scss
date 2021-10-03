@@ -12,10 +12,6 @@
   @include media(tablet-lg) {
     height: auto;
   }
-
-  @include media(phone-lg) {
-
-  }
 }
 .home-filling {
   padding: $padding-page-desktop;
@@ -26,16 +22,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+
   @include media(tablet-lg) {
     padding: 0;
     padding-top: 93px;
     padding-right: 0px;
     flex-direction: column;
-  }
-
-  @include media(phone-lg) {
-
   }
 
   &__content {
@@ -54,11 +46,10 @@
       margin: 470px 0 0 0;
       padding: $padding-page-tablet;
     }
-  
-    @include media(phone-lg) {
-  
-    }
 
+    @include media(phone-lg) {
+      margin: 0px 0 0 0;
+    }
   }
   &__title {
     font-family: $font__karla;
@@ -72,14 +63,16 @@
     @include media(tablet-lg) {
       text-align: center;
     }
-  
+
     @include media(phone-lg) {
-  
+      font-size: $font-size__42;
+      line-height: 49px;
     }
 
     &-bold {
       font-weight: bold;
     }
+
     &-normal {
       font-weight: normal;
     }
@@ -96,10 +89,11 @@
     @include media(tablet-lg) {
       text-align: center;
       font-size: $font-size__title-4;
+      line-height: 28px;
     }
-  
+
     @include media(phone-lg) {
-  
+      margin: 0 0 40px 0;
     }
   }
   &__banner {
@@ -122,9 +116,12 @@
       background-size: auto 100%;
       background-position: center;
     }
-  
+
     @include media(phone-lg) {
-  
+      position: relative;
+      top: 0px;
+      width: 100%;
+      height: 290px;
     }
   }
 }
