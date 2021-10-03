@@ -16,6 +16,10 @@
     padding: $padding-page-tablet;
   }
 
+  @include media(phone-lg) {
+    height: 56px;
+  }
+
   &__logo {
     display: block;
     width: 157px;

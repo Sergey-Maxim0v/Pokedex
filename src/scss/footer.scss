@@ -18,24 +18,35 @@
   }
 
   @include media(phone-lg) {
-
+    flex-direction: column-reverse;
+    justify-content: center;
   }
 
   &-dark {
     color: $dark;
   }
+
   &-light {
     color: $white-f2;
     background: $dark;
   }
+
   &__text {
     display: block;
     position: relative;
   }
+
+  @include media(phone-lg) {
+  font-size: $font-size__16;
+  font-weight: 400;
+  text-align: center;
+  }
+
   &__link {
     display: block;
     margin: 0 2.97vw 0 0;
     color: $dark;
+
     &-light{
       color: $white-f2;
     }
