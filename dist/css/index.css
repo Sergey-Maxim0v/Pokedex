@@ -1245,6 +1245,11 @@ h6 {
   background-color: #d93e30;
   overflow: hidden;
 }
+@media (max-width: 600px) {
+  .notfound {
+    padding: 20px;
+  }
+}
 .notfound__banner {
   position: relative;
   width: 80%;
@@ -1261,6 +1266,11 @@ h6 {
   -webkit-filter: drop-shadow(4px 4px 24px rgba(1, 17, 38, 0.2));
           filter: drop-shadow(4px 4px 24px rgba(1, 17, 38, 0.2));
 }
+@media (max-width: 600px) {
+  .notfound__banner {
+    height: auto;
+  }
+}
 .notfound__404 {
   display: block;
   font-family: "karla";
@@ -1276,6 +1286,16 @@ h6 {
   letter-spacing: 4px;
   color: rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 1024px) {
+  .notfound__404 {
+    font-size: 45vh;
+  }
+}
+@media (max-width: 600px) {
+  .notfound__404 {
+    font-size: 50vw;
+  }
+}
 .notfound__img {
   display: block;
   position: absolute;
@@ -1286,6 +1306,11 @@ h6 {
   background-repeat: no-repeat;
   background-size: auto 100%;
 }
+@media (max-width: 600px) {
+  .notfound__img {
+    height: 70vw;
+  }
+}
 .notfound__text {
   padding: 0 0 5vh 0;
   font-family: "karla";
@@ -1293,6 +1318,18 @@ h6 {
   font-weight: bold;
   font-size: 48px;
   line-height: 56px;
+}
+@media (max-width: 1024px) {
+  .notfound__text {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .notfound__text {
+    margin: 50px 0 0 0;
+    font-size: 25px;
+    line-height: 29px;
+  }
 }
 .notfound__text-white {
   color: #f2f2f2;

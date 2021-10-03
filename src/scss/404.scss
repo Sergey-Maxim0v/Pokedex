@@ -8,6 +8,15 @@
   justify-content: center;
   background-color: $danger;
   overflow: hidden;
+  
+  @include media(tablet-lg) {
+
+  }
+
+  @include media(phone-lg) {
+    padding: 20px;
+  }
+
   &__banner {
     position: relative;
     width: 80%;
@@ -16,6 +25,10 @@
     align-items: center;
     justify-content: center;
     filter: $shadow-404;
+
+    @include media(phone-lg) {
+      height: auto;
+    }
   }
   &__404 {
     display: block;
@@ -27,6 +40,14 @@
     align-items: center;
     letter-spacing: 4px;
     color: rgba(0, 0, 0, 0.5);
+      
+    @include media(tablet-lg) {
+      font-size: 45vh;
+    }
+
+    @include media(phone-lg) {
+      font-size: 50vw;
+    }
   }
   &__img {
     display: block;
@@ -37,6 +58,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
+          
+    @include media(phone-lg) {
+      height: 70vw;
+    }
   }
   &__text {
     padding: 0 0 5vh 0;
@@ -45,6 +70,16 @@
     font-weight: bold;
     font-size: $font-size__notfound-text;
     line-height: 56px;
+          
+    @include media(tablet-lg) {
+      text-align: center;
+    }
+              
+    @include media(phone-lg) {
+      margin: 50px 0 0 0;
+      font-size: $font-size__25;
+      line-height: 29px;
+    }
     &-white {
       color: $white-f2;
     }
