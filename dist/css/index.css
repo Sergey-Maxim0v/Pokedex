@@ -146,6 +146,29 @@ h6 {
     height: 45px;
   }
 }
+@media (max-width: 600px) {
+  .header__logo {
+    width: 59px;
+    height: 22px;
+  }
+}
+.header__burger-btn {
+  display: none;
+}
+@media (max-width: 600px) {
+  .header__burger-btn {
+    display: block;
+    width: 31px;
+    height: 22px;
+    background-image: url(../../assets/images/icon-burger-dark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+  }
+}
 .header__links {
   height: auto;
   width: auto;
@@ -169,6 +192,12 @@ h6 {
   .header__links-link {
     font-size: 19px;
     margin: 0 24px;
+    margin: 0 2vw;
+  }
+}
+@media (max-width: 600px) {
+  .header__links-link {
+    display: none;
   }
 }
 .header__links-link:hover {
