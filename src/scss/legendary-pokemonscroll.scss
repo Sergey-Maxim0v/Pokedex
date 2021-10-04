@@ -75,9 +75,16 @@
     }
 
     @include media(phone-lg) {
+      width: 96px;
+      height: 122px;
     }
     &-active {
       opacity: 1;
+    }
+    &-nonphone{
+      @include media(phone-lg) {
+        display: none;
+      }
     }
   }
   &__img {

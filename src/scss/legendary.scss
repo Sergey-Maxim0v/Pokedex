@@ -13,6 +13,8 @@
     }
 
     @include media(phone-lg) {
+      padding-top: 56px;
+      padding-bottom: 350px;
     }
   }
   &__legend {
@@ -38,6 +40,7 @@
     }
 
     @include media(phone-lg) {
+      height: auto;
     }
   }
   &__title {
@@ -54,6 +57,10 @@
     letter-spacing: 4px;
     color: $white;
     margin: 0 0 40px 0;
+
+    @include media(phone-lg) {
+      font-size: $font-size__44;
+    }
   }
   &__picture {
     height: 373px;
@@ -66,6 +73,8 @@
     }
 
     @include media(phone-lg) {
+      height: 283px;
+      width: 100%;
     }
     &-mewtwo {
       background: url(../../assets/images/pokemon-mewtwo.png) no-repeat;
@@ -98,6 +107,9 @@
     }
 
     @include media(phone-lg) {
+      margin: 25px 0 0 0;
+      height: 390px;
+      width: 100%;
     }
     &-name {
       font-family: $font__karla;
@@ -112,6 +124,7 @@
       }
 
       @include media(phone-lg) {
+        font-size: $font-size__44;
       }
     }
     &-text {
@@ -128,6 +141,7 @@
       }
 
       @include media(phone-lg) {
+        margin: 20px 0;
       }
     }
   }
