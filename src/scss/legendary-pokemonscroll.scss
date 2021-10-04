@@ -6,6 +6,13 @@
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+
+  @include media(tablet-lg) {
+    height: 128px;
+  }
+
+  @include media(phone-lg) {
+  }
   &__leftbutton {
     width: 30px;
     height: 48px;
@@ -14,6 +21,14 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     cursor: pointer;
+
+    @include media(tablet-lg) {
+      width: 20px;
+      height: 32px;
+    }
+
+    @include media(phone-lg) {
+    }
   }
   &__rightbutton {
     width: 30px;
@@ -23,6 +38,14 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
     cursor: pointer;
+
+    @include media(tablet-lg) {
+      width: 20px;
+      height: 32px;
+    }
+
+    @include media(phone-lg) {
+    }
   }
   &__card {
     position: relative;
@@ -45,6 +68,14 @@
     overflow: visible;
     opacity: 0.6;
     cursor: pointer;
+
+    @include media(tablet-lg) {
+      width: 96px;
+      height: 122px;
+    }
+
+    @include media(phone-lg) {
+    }
     &-active {
       opacity: 1;
     }
@@ -56,6 +87,14 @@
     overflow: visible;
     width: 160px;
     height: 150px;
+
+    @include media(tablet-lg) {
+      width: 116px;
+      height: 95px;
+    }
+
+    @include media(phone-lg) {
+    }
     &-mew {
       background-image: url(../../assets/images/pokemon-mewtwo.png);
       background-position: center;
@@ -122,6 +161,13 @@
     font-size: $font-size__title-5;
     line-height: 21px;
     color: $color-darc-1d;
+  
+    @include media(tablet-lg) {
+      padding: 5px;
+    }
+
+    @include media(phone-lg) {
+    }
     &::after {
       content: "";
       display: block;
@@ -131,6 +177,14 @@
       background-position: center;
       background-size: 100% 100%;
       background-repeat: no-repeat;
+        
+    @include media(tablet-lg) {
+      width: 16px;
+      height: 16px;
+    }
+
+    @include media(phone-lg) {
+    }
     }
   }
 }
