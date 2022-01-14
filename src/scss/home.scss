@@ -13,10 +13,11 @@
     height: auto;
   }
 }
+
 .home-filling {
   padding: $padding-page-desktop;
   padding-top: 80px;
-  padding-right: 0px;
+  padding-right: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -48,17 +49,19 @@
     }
 
     @include media(phone-lg) {
-      margin: 0px 0 0 0;
+      margin: 0 0 0 0;
     }
   }
+
   &__title {
     font-family: $font__karla;
     font-style: normal;
     font-weight: bold;
-    font-size: $font-size__title-1;
-    line-height: 84px;
-    letter-spacing: 4px;
+    font-size: 10vh;
+    line-height: 10vh;
+    letter-spacing: 0.5vh;
     color: $black;
+
 
     @include media(tablet-lg) {
       text-align: center;
@@ -77,13 +80,14 @@
       font-weight: normal;
     }
   }
+
   &__text {
     margin: 4.44vh 0;
     font-family: $font__karla;
     font-style: normal;
     font-weight: normal;
-    font-size: $font-size__home-text;
-    line-height: 37px;
+    font-size: 4.5vh;
+    line-height: 4.5vh;
     color: $black;
 
     @include media(tablet-lg) {
@@ -96,6 +100,7 @@
       margin: 0 0 40px 0;
     }
   }
+
   &__banner {
     width: 60%;
     height: 100%;
@@ -119,7 +124,7 @@
 
     @include media(phone-lg) {
       position: relative;
-      top: 0px;
+      top: 0;
       width: 100%;
       height: 290px;
     }
