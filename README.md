@@ -17,7 +17,7 @@
 - адаптивная верстка,
 - SCSS,
 - CSS mixin
-- CSSbпеременные,
+- CSS переменные,
 - CSS import,
 - CSS flex
 
